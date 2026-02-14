@@ -8,6 +8,14 @@ export const metadata: Metadata = {
   title: { default: "Kitron Ferrier", template: "%s | Kitron Ferrier" },
   description:
     "Building with conviction at the intersection of faith, psychology, and systems.",
+  icons: {
+    icon: [
+      { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-touch-icon.png",
+  },
+  manifest: "/favicon/site.webmanifest",
 };
 
 export default function RootLayout({
