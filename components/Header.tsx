@@ -3,7 +3,7 @@ import Link from "next/link";
 const nav = [
   { href: "/about", label: "About" },
   { href: "/projects", label: "Projects" },
-  { href: "/faith-media", label: "Faith & Media" },
+  { href: "/faith-media", label: "Faith and Media" },
   { href: "/contact", label: "Contact" },
 ];
 

@@ -5,7 +5,8 @@ import Section from "@/components/Section";
 
 export const metadata: Metadata = {
   title: "Contact",
-  description: "Get in touch. Email and links.",
+  description:
+    "Reach out for serious conversations about faith, business, and building.",
 };
 
 const LINKS = [
@@ -20,11 +21,10 @@ export default function ContactPage() {
     <Section className="pt-20">
       <Container>
         <MotionReveal>
-          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">
-            Contact
-          </h1>
-          <p className="mt-4 text-text-secondary">
-            The best way to reach me is by email or through the links below.
+          <h1 className="text-3xl font-semibold tracking-tight sm:text-4xl">Contact</h1>
+          <p className="mt-4 max-w-2xl text-text-secondary">
+            If something here resonates with you, reach out. I am open to
+            serious conversations about faith, business, and building.
           </p>
           <div className="mt-8">
             <a

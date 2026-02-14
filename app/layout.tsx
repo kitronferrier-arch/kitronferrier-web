@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://kitronferrier.com"),
   title: { default: "Kitron Ferrier", template: "%s | Kitron Ferrier" },
   description:
-    "Building with conviction at the intersection of faith, psychology, and systems.",
+    "Faith driven builder focused on structured transformation through discipline, behavioral psychology, and systems.",
   icons: {
     icon: [
       { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },
