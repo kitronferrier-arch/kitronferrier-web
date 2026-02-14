@@ -8,6 +8,17 @@ export const metadata: Metadata = {
   title: { default: "Kitron Ferrier", template: "%s | Kitron Ferrier" },
   description:
     "Faith driven builder focused on structured transformation through discipline, behavioral psychology, and systems.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    title: "Kitron Ferrier",
+    description:
+      "Faith driven builder focused on structured transformation through discipline, behavioral psychology, and systems.",
+    url: "https://kitronferrier.com",
+    siteName: "Kitron Ferrier",
+    type: "website",
+  },
   icons: {
     icon: [
       { url: "/favicon/favicon-16x16.png", sizes: "16x16", type: "image/png" },

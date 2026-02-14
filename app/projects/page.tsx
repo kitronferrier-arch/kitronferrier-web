@@ -9,6 +9,9 @@ export const metadata: Metadata = {
   title: "Projects",
   description:
     "ProtoLoop is the umbrella venture for scalable systems and products, including SimplyCVR.",
+  alternates: {
+    canonical: "/projects",
+  },
 };
 
 export default function ProjectsPage() {
@@ -43,8 +46,14 @@ export default function ProjectsPage() {
       <Section>
         <Container>
           <div className="space-y-20">
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
+            <div className="rounded-xl border border-white/10 bg-surface/30 p-5 sm:p-6">
               <MotionReveal>
+                <p className="mb-4 text-xs uppercase tracking-[0.18em] text-text-secondary">
+                  Venture
+                </p>
+              </MotionReveal>
+              <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+                <MotionReveal>
                 <div className="overflow-hidden rounded-lg bg-surface p-3">
                   <div className="relative aspect-[16/10] w-full">
                     <Image
@@ -56,31 +65,38 @@ export default function ProjectsPage() {
                     />
                   </div>
                 </div>
-              </MotionReveal>
-              <MotionReveal>
-                <h2 className="text-2xl font-semibold tracking-tight">ProtoLoop</h2>
-                <p className="mt-4 text-text-secondary">
-                  ProtoLoop builds scalable systems and products that turn clear
-                  goals into disciplined execution.
-                </p>
-                <p className="mt-4 text-text-secondary">
-                  It solves the gap between strategy and consistent follow
-                  through by designing feedback loops teams can apply in daily
-                  work.
-                </p>
-                <p className="mt-4 text-text-secondary">
-                  I serve as CEO and President.
-                </p>
-                <div className="mt-6">
-                  <Button href="https://protoloop.net" external>
-                    Visit ProtoLoop
-                  </Button>
-                </div>
-              </MotionReveal>
+                </MotionReveal>
+                <MotionReveal>
+                  <h2 className="text-2xl font-semibold tracking-tight">ProtoLoop</h2>
+                  <p className="mt-4 text-text-secondary">
+                    ProtoLoop builds scalable systems and products that turn clear
+                    goals into disciplined execution.
+                  </p>
+                  <p className="mt-4 text-text-secondary">
+                    It solves the gap between strategy and consistent follow
+                    through by designing feedback loops teams can apply in daily
+                    work.
+                  </p>
+                  <p className="mt-4 text-text-secondary">
+                    I serve as CEO and President.
+                  </p>
+                  <div className="mt-6">
+                    <Button href="https://protoloop.net" external>
+                      Visit ProtoLoop
+                    </Button>
+                  </div>
+                </MotionReveal>
+              </div>
             </div>
 
-            <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
-              <MotionReveal className="order-2 lg:order-1">
+            <div className="rounded-xl border border-white/10 bg-surface/30 p-5 sm:p-6">
+              <MotionReveal>
+                <p className="mb-4 text-xs uppercase tracking-[0.18em] text-text-secondary">
+                  Venture
+                </p>
+              </MotionReveal>
+              <div className="grid gap-8 lg:grid-cols-2 lg:items-center">
+                <MotionReveal>
                 <div className="overflow-hidden rounded-lg bg-surface p-3">
                   <div className="relative aspect-[16/10] w-full">
                     <Image
@@ -92,22 +108,23 @@ export default function ProjectsPage() {
                     />
                   </div>
                 </div>
-              </MotionReveal>
-              <MotionReveal className="order-1 lg:order-2">
-                <h2 className="text-2xl font-semibold tracking-tight">SimplyCVR</h2>
-                <p className="mt-4 text-text-secondary">
-                  SimplyCVR is a ProtoLoop venture.
-                </p>
-                <p className="mt-4 text-text-secondary">
-                  It is a product developed under ProtoLoop with a focus on
-                  clear workflows and practical use.
-                </p>
-                <div className="mt-6">
-                  <Button href="https://simplycvr.com" external>
-                    Visit SimplyCVR
-                  </Button>
-                </div>
-              </MotionReveal>
+                </MotionReveal>
+                <MotionReveal>
+                  <h2 className="text-2xl font-semibold tracking-tight">SimplyCVR</h2>
+                  <p className="mt-4 text-text-secondary">
+                    SimplyCVR is a ProtoLoop venture.
+                  </p>
+                  <p className="mt-4 text-text-secondary">
+                    It is a product developed under ProtoLoop with a focus on
+                    clear workflows and practical use.
+                  </p>
+                  <div className="mt-6">
+                    <Button href="https://simplycvr.com" external>
+                      Visit SimplyCVR
+                    </Button>
+                  </div>
+                </MotionReveal>
+              </div>
             </div>
           </div>
         </Container>
