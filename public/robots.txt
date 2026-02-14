@@ -1,0 +1,5 @@
+# https://kitronferrier.com
+User-agent: *
+Allow: /
+
+Sitemap: https://kitronferrier.com/sitemap.xml

@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-background: #0e0e11;
+  --color-surface: #151519;
+  --color-text-primary: #f4f4f5;
+  --color-text-secondary: rgba(244, 244, 245, 0.72);
+  --color-accent: #c6a85b;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
