@@ -26,13 +26,16 @@ export default function ContactPage() {
             If something here resonates with you, reach out. I am open to
             serious conversations about faith, business, and building.
           </p>
-          <div className="mt-8">
-            <a
-              href="mailto:KitronFerrier@gmail.com"
-              className="text-accent hover:underline"
-            >
-              KitronFerrier@gmail.com
-            </a>
+          <div className="mt-8 space-y-4">
+            <div>
+              <p className="text-sm text-text-secondary mb-2">Send me an email:</p>
+              <a
+                href="mailto:hello@protoloop.net"
+                className="inline-flex items-center px-4 py-2 rounded-lg bg-accent/10 text-accent hover:bg-accent/20 transition-colors font-semibold"
+              >
+                hello@protoloop.net
+              </a>
+            </div>
           </div>
           <nav className="mt-6 flex flex-wrap gap-4">
             {LINKS.map(({ href, label }) => (
