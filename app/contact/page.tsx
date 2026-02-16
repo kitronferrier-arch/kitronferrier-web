@@ -30,10 +30,10 @@ export default function ContactPage() {
             <div>
               <p className="text-sm text-text-secondary mb-2">Send me an email:</p>
               <a
-                href="mailto:hello@protoloop.net"
+                href="mailto:KitronFerrier@gmail.com"
                 className="inline-flex items-center px-4 py-2 rounded-lg bg-accent/10 text-accent hover:bg-accent/20 transition-colors font-semibold"
               >
-                hello@protoloop.net
+                KitronFerrier@gmail.com
               </a>
             </div>
           </div>
